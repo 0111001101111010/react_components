@@ -1,0 +1,17 @@
+{
+  "name": "tic_tac_reactjs",
+  "version": "0.0.0",
+  "homepage": "https://github.com/brian3kb/tic_tac_reactjs",
+  "authors": [
+    "stanley zheng <dev.stanzheng@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "libs",
+    "test",
+    "tests"
+  ]
+}
