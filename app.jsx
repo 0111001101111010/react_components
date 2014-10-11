@@ -17,16 +17,16 @@ var Clock = React.createClass({
   getInitialState: function () {
   var self = this;
   setInterval(function () {
-    self.setState({time:Date.now()});
+    self.setState({time:Date().toLocaleString()});
   },500);
     return {
-      "time": Date.now()
+      "time": Date().toLocaleString()
     }
   },
   render: function () {
   return <div>
           <h2> the time </h2>
-          <h2> {this.state.time.toLocaleString()} </h2>
+          <h2> {this.state.time} </h2>
          </div>
    }
 });
