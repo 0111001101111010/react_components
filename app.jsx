@@ -37,9 +37,9 @@ var Timer = React.createClass({
     // body...
   },
   render: function () {
-    return <div>
+    return (<div>
             <h1> hello</h1>
-           </div>
+           </div>)
     // body...
   }
 })
